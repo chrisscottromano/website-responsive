@@ -60,7 +60,8 @@ table {
 }
 
 body {
-	-webkit-text-size-adjust: none;
+	/* -webkit-text-size-adjust: none; */
+	-text-size-adjust: none;
 }
 
 mark {
@@ -78,6 +79,10 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+.about {
+	font-size: 16pt;
 }
 
 .pubs {
